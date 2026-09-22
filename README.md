@@ -1,16 +1,18 @@
-truthcheck/
-├── index.html            # Main home page and fact-check catalog
-├── videos.html           # Video resources page
-├── feedback.html         # User feedback form page
-├── contact.html          # Contact details page
-├── privacy.html          # Privacy policy
-├── accessibility.html    # Accessibility statement
-├── css/
-│   └── style.css         # Main stylesheet
-├── js/
-│   └── site.js           # Search and filter functionality script
-└── images/               # Logos, hero images, and article thumbnails
-    ├── logo.png
-    ├── fake-news-hero.jpg
-    ├── recent-news.jpg
-    └── recent-news-1.jpg
+TruthCheck | Evidence-led News Literacy
+TruthCheck is an educational web platform designed to promote media literacy, source verification, and critical thinking to help users identify and tackle online misinformation.
+
+Features
+Interactive Article Search & Filtering: Filter fact-checks by category (Sport, Technology & Society) or search by headline keywords in real time.
+
+Source Verification Links: Direct links to primary reporting sources (e.g., BBC Sport, Oversight Board decisions) to encourage reader verification.
+
+Accessible & Responsive Design: Built using semantic HTML5, ARIA landmarks, live regions, and fully responsive layouts.
+
+Educational Guidance: Clear disclaimers and context to teach users how to evaluate publication dates and archived sources.
+
+Tech Stack
+HTML5: Semantic markup, accessibility features (aria-live, aria-label), and structured data attributes (data-category).
+
+CSS3: Custom styles (css/style.css).
+
+JavaScript: Client-side filtering and search logic (js/site.js).

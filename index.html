@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TruthCheck | Evidence-led news literacy</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <a href="index.html" aria-label="TruthCheck home">
+        <img src="images/logo.png" alt="TruthCheck logo">
+        <h1>TRUTHCHECK</h1>
+      </a>
+    </header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="Feedback.html">Feedback</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="hero"><img src="images/fake-news-hero.jpg" alt="A newsroom desk representing careful fact-checking"></div>
+    <main>
+      <section class="intro">
+        <h1>Clear context for a noisy news cycle</h1>
+        <p>TruthCheck is an educational demonstration of source checking and media literacy. Articles are presented for learning and may be archived examples, not breaking-news advice. Always read the linked source and check the publication date.</p>
+      </section>
+      <section aria-labelledby="browse-heading">
+        <h1 id="browse-heading">Browse fact checks</h1>
+        <div class="article-tools">
+          <label for="article-search">Search articles</label>
+          <input id="article-search" type="search" placeholder="Try a topic or headline">
+          <label for="category-filter">Filter by category</label>
+          <select id="category-filter">
+            <option value="all">All categories</option>
+            <option value="sport">Sport</option>
+            <option value="technology">Technology &amp; society</option>
+          </select>
+        </div>
+        <p id="article-status" class="status" aria-live="polite"></p>
+        <div id="article-list">
+          <article class="article-card" data-category="sport">
+            <img src="images/recent-news.jpg" alt="Football match">
+            <div>
+              <p class="article-meta"><span>Sport</span> · 7 May 2021 · TruthCheck editorial team</p>
+              <h2>What the match report says about Liverpool and Southampton</h2>
+              <p>An archived match report describes Liverpool's late win, the key goals and the teams' league positions. Compare the summary with the original reporting before sharing it.</p>
+              <p><a class="source-link" href="https://www.bbc.co.uk/sport/football" target="_blank" rel="noopener">Read the source: BBC Sport football coverage</a></p>
+            </div>
+          </article>
+          <article class="article-card" data-category="technology">
+            <img src="images/recent-news-1.jpg" alt="Social media discussion">
+            <div>
+              <p class="article-meta"><span>Technology &amp; society</span> · 6 May 2021 · TruthCheck editorial team</p>
+              <h2>Understanding a social platform's oversight decision</h2>
+              <p>This archived explainer looks at how an independent oversight body can review a platform decision and why proportionality and consistent rules matter.</p>
+              <p><a class="source-link" href="https://www.oversightboard.com/decision/" target="_blank" rel="noopener">Read the source: Oversight Board decisions</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul id="social" aria-label="Social media">
+        <li><a href="https://www.twitter.com" rel="noopener"><img src="images/Twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://www.facebook.com" rel="noopener"><img src="images/facebook.png" alt="Facebook"></a></li>
+        <li><a href="https://www.instagram.com" rel="noopener"><img src="images/instagram.png" alt="Instagram"></a></li>
+      </ul>
+      <p><a href="privacy.html">Privacy</a> · <a href="accessibility.html">Accessibility</a></p>
+      <p>&copy; 2026 TruthCheck · Educational demonstration</p>
+    </footer>
+  </div>
+</body>
+</html>
